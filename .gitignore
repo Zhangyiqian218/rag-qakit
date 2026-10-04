@@ -10,6 +10,9 @@ dist/
 data/sample_chunks.jsonl
 data/cli_out.jsonl
 
+# 自检截图
+_shots/
+
 # 系统/编辑器
 .DS_Store
 .vscode/

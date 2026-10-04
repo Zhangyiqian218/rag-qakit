@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 运行产生的输出（保留示例源文件）
+data/sample_chunks.jsonl
+data/cli_out.jsonl
+
+# 系统/编辑器
+.DS_Store
+.vscode/
+.idea/

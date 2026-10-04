@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-qakit"
+version = "0.1.0"
+description = "面向 RAG 的轻量数据处理与质量评估工具包：加载、清洗、切分、向量化与质量打分"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Yiqian Zhang" }]
+keywords = ["RAG", "LLM", "data-quality", "chunking", "embedding", "NLP", "agent"]
+dependencies = []
+
+[project.optional-dependencies]
+embed = ["requests>=2.31"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+rag-qakit = "rag_qakit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rag_qakit*"]

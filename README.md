@@ -43,7 +43,7 @@
 
 ```bash
 # 直接使用：核心功能零依赖，克隆后即可运行
-git clone https://github.com/<your-name>/rag-qakit.git
+git clone https://github.com/Zhangyiqian218/rag-qakit.git
 cd rag-qakit
 py examples/demo.py
 
